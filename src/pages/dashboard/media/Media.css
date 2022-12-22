@@ -1,0 +1,336 @@
+/*  */
+@media (min-width: 1090px) and (max-width: 1280px){
+    /* Table */
+    .table{
+      display: flex;
+      width: 1200px;
+      justify-content: start;
+      padding-left: 110px;
+    }
+    .header-table {
+      height: fit-content;
+      width: 1000px;
+    }
+    .manage-thread-table {
+      margin-left: 0px;
+    }
+    /* Card */
+    .main-card {
+      display: flex;
+      gap: 25px;
+      width: 1000px !important;
+      height: fit-content;
+    }
+    .card-details{
+      height: 530px;
+      display: flex;
+    }
+    .main-card h1,
+    .main-card h2,
+    .main-card h3,
+    .main-card p {
+      text-align: start;
+      margin: 0px;
+    }
+    .card-header{
+      display: flex;
+    }
+    .user-header{
+      margin-right: 45px;
+    }
+    .interaction {
+      width: 800px;
+      height: 500px !important;
+    }
+    .interaction, .card-details-report{
+      width: 550px !important;
+    }
+    .interaction-body{
+      width: 530px !important;
+      height: 100px !important;
+    }
+    .thread-interaction{
+      /* border: 2px solid #000000; */
+      display: inherit !important;
+      height: 250px !important;
+    }
+    .total-reports{
+      margin-right: 15px !important;
+      margin-left: 8px !important;
+    }
+    .total-reports,
+    .account-reached{
+      /* border: 2px solid #000000; */
+      width: 250px !important;
+      height: 100px !important;
+      margin-top: 0px;
+    }
+    .total-reports img,
+    .account-reached img{
+      width: 25px;
+      height: 25px;
+    }
+    .total-reports h2,
+    .account-reached h2{
+      padding-top: 5px;
+    }
+    .total-reports h1,
+    .total-reports h2,
+    .account-reached h1,
+    .account-reached h2{
+      font-size: 18px !important;
+      font-family: "Roboto" !important;
+      font-style: normal !important;
+      font-weight: 500 !important;
+    }
+    .total-reports h1,
+    .account-reached h1{
+      margin-left: 1px !important;
+      padding-bottom: 5px;
+    }
+    /* Interaction Footer*/
+    .interaction-footer {
+      /* border: 2px solid #000000 !important; */
+      justify-content: left !important;
+      width: 525px !important;
+      height: 75px !important;
+      margin-left: 2px !important;
+    }
+    .total-likes,
+    .total-comments {
+      /* border: 2px solid #000000; */
+      width: 150px !important;
+      height: 65px !important;
+      display: grid !important;
+      padding-left: 12px !important;
+      margin: 7px !important;
+    }
+    .total-likes h1,
+    .total-comments h1 {
+      margin-left: 10px !important;
+      margin-top: 2px !important;
+    }
+  
+    /* Chart */
+    .chart-body{
+      /* border: 2px solid #000000 !important; */
+      height: 120px !important;
+      width: 510px !important;
+      margin-top: 0px;
+    }
+    .chart-user{
+      /* border: 2px solid #000000 !important; */
+      display: flex !important;
+      width: 500px !important;
+      height: inherit !important;
+      margin-left: 5px !important;
+      padding-right: 25px !important;
+    }
+    .bar-size{
+      height: 0px !important;
+    }
+    /* Button delete */
+    .card-details-report{
+      display: inherit;
+    }
+    .details-report{
+      height: 200px !important;
+      margin-top: 10px ;
+    }
+    .button-delete-user{
+      display: flex;
+      width: 550px !important;
+      padding-top: 10px;
+    }
+    .button{
+      display: flex;
+      justify-content: flex-end;
+      width: 560px;
+      margin-left: 0px;
+    }
+    .button-suspend{
+      margin-left: 30px;
+    }
+    /* card footer */
+    .interaction-footer-user{
+      margin-right: 40px;
+    }
+    .total-likes-user,
+    .total-comments-user{
+      /* border: 2px solid #000000 !important; */
+      height: 80px;
+    }
+    .like-user h1,
+    .comment-user h1,
+    .share-user h1,
+    .comment-user h1{
+      margin-top: 3px;
+      margin-left: 10px;
+    }
+    .like-user img,
+    .comment-user img,
+    .share-user img,
+    .comment-user img
+    {
+      width: 25px;
+      height: 25px;
+    }
+  }
+  
+@media (min-width: 1280px) and (max-width: 1580px){
+    /* Table */
+    .table{
+      display: flex !important;
+      width: 1450px !important;
+      justify-content: start;
+      padding-left: 110px;
+    }
+    .manage-thread-table {
+      margin-left: 0px !important;
+      padding: 0px 10px;
+      width: inherit !important;
+    }
+    .header-table {
+      height: fit-content;
+    }
+    /* Details Report */
+    .detail{
+      width: 1230px !important;
+    }
+    .details-thread{
+      width: inherit;
+    }
+    .main-card{
+      display: flex;
+      gap: 20px;
+      height: fit-content;
+      margin: 0px;
+    }
+    .card-details{
+      height: 560px;
+      display: flex;
+    }
+    .interaction{
+      width: inherit !important;
+    }
+    /* Card Body */
+    .thread-interaction{
+      /* border: 2px solid #000000; */
+      width: 730px;
+      display: inherit !important;
+      height: 290px !important;
+    }
+    .interaction-body{
+      width: inherit !important;
+      height: 120px !important;
+      gap: 35px;
+    }
+    .total-reports{
+      margin-right: 15px !important;
+      margin-left: 5px !important;
+    }
+    .total-reports,
+    .account-reached{
+      /* border: 2px solid #000000; */
+      width: 300px !important;
+      height: 130px !important;
+      margin-top: 5px;
+    }
+    .total-reports img,
+    .account-reached img{
+      width: 35px;
+      height: 35px;
+    }
+    .total-reports h2,
+    .account-reached h2{
+      padding-top: 2px;
+    }
+    .total-reports h1,
+    .total-reports h2,
+    .account-reached h1,
+    .account-reached h2{
+      font-size: 22px !important;
+      font-family: "Roboto" !important;
+      font-style: normal !important;
+      font-weight: 500 !important;
+    }
+    .total-reports h1,
+    .account-reached h1{
+      margin-left: 1px !important;
+      padding-bottom: 5px;
+    }
+    /* Card Footer */
+    .interaction-footer{
+      justify-content: left !important;
+      width: inherit !important;
+      height: 85px !important;
+      margin-top: 20px;
+    }
+    .total-likes,
+    .total-comments {
+      width: 128px !important;
+      height: inherit !important;
+      display: grid !important;
+      padding-left: 15px !important;
+      margin-left: 34px !important;
+    }
+    .total-likes h1,
+    .total-comments h1 {
+      margin-left: 10px !important;
+      margin-top: 2px !important;
+      font-size: 15px !important;
+    }
+    /* Details */
+    .details-report{
+      display: inherit;
+      width: 730px !important;
+      height: 190px !important;
+    }
+    /* Chart */
+    .chart-user{
+      height: inherit !important;
+      width: 800px !important;
+      margin-left: 0px !important;
+      padding-right: 25px !important;
+    }
+    /* Button */
+    .button-delete-user{
+      display: flex;
+      width: 730px !important;
+      padding-top: 10px;
+    }
+    /* 
+    *
+    User
+    *
+    */
+    .card-user{
+      width: inherit;
+    }
+    .filter{
+      margin: 10px 0px !important;
+    }
+    .main-card-table{
+      height: 270px;
+    }
+    /* 
+    *
+    Error Page
+    *
+    */
+    .err_page{
+      height: 720px;
+      width: 1449px ;
+      text-align: center;
+    }
+    .err_page h1{
+      margin-top: 270px;
+      margin-right: 90px;
+      font-size: 100px;
+      font-family: "Roboto" !important;
+      font-style: normal !important;
+      font-weight: 700 !important;
+      color: #00827f;
+    }
+}
+  

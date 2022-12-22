@@ -1,0 +1,15 @@
+.ant-layout-sider-trigger {
+  background-color: #178066 !important;
+}
+
+.ant-layout-sider-trigger svg path {
+  color: white;
+}
+
+.logout-btn svg path {
+  color: red;
+}
+
+span.ant-menu-title-content a {
+  font-weight: 400;
+}

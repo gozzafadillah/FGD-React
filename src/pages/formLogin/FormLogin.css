@@ -1,0 +1,209 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&family=Roboto:wght@100;400;700&display=swap");
+
+a {
+  text-decoration: none;
+  font-style: normal;
+  color: #fff;
+  font-family: "Roboto", sans-serif;
+  font-weight: 600;
+  font-size: 20px;
+}
+.form-input p {
+  color: #ff0059 !important;
+  font-size: 18px !important;
+}
+.form-input p::before {
+  display: inline;
+  content: "⚠ ";
+}
+.ant-layout-sider-trigger {
+  background-color: #178066 !important;
+}
+.App {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Roboto", sans-serif;
+}
+.box {
+  /* border: 2px solid #178066; */
+  display: flex;
+  height: 962px;
+}
+.row-main{
+  height: inherit
+}
+.box .row-main .col-1 {
+  /* border: 2px solid #178066; */
+  padding: 30px;
+  padding-top: 17vh;
+  padding-left: 130px;
+}
+.box .row-main .col-2 {
+  /* border: 2px solid #fff700; */
+  background-color: #178066;
+  width: max-content;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: center;
+  padding-left: 3vw;
+  padding-top: 3.5vh;
+  padding-bottom: 80px;
+}
+.box .row-main .col-2 .title {
+  /* border: 2px solid #fff700; */
+  text-align: start;
+  height: 24vh;
+  padding: 40px;
+  padding-top: 10vh;
+}
+.col-2 .form-input {
+  /* border: 2px solid #fff700; */
+  text-align: start;
+  height: auto;
+  padding: 40px;
+  padding-top: 0;
+}
+.title h1 {
+  /* border: 2px solid #fff700; */
+  color: #fff;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 56px;
+}
+.title p {
+  /* border: 2px solid #fff700; */
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 23px;
+  letter-spacing: 0.0014em;
+  margin-top: 20px;
+}
+.box .row-main .col-2 p {
+  color: #fff;
+}
+/* Form */
+/* Input-Form */
+.col-2 .form-input input[type="text"],
+input[type="password"] {
+  display: block;
+  box-sizing: border-box;
+  width: 90%;
+  border-radius: 10px;
+  border: 1px solid white;
+  padding: 10px 15px;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  font-size: 24px;
+}
+.col-2 .form-input p {
+  display: block;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  font-size: 14px;
+}
+.col-2 .form-input .btn-submit {
+  background: #04353d;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  margin-top: 30px;
+  padding: 15px;
+  font-size: 20px;
+  font-weight: 600;
+  width: 90%;
+  height: 60px;
+  text-align: center;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.col-2 .form-input .btn-submit span {
+  font-size: 20px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 600;
+  text-align: center;
+}
+/* h3,p,-Form */
+.col-2 .form-input h3 {
+  /* border: 2px solid #fff700; */
+  color: #fff;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 34px;
+  line-height: 40px;
+  letter-spacing: 0.0025em;
+}
+.form-input .password h3 {
+  /* border: 2px solid #fff700; */
+  margin-top: 3.5vh;
+}
+.form-input .check-box {
+  /* border: 2px solid #fff700; */
+  margin-top: 10px;
+  display: inline-flex;
+  width: 30vw;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 28px;
+}
+.check-box span {
+  color: #fff !important;
+  content: none;
+  margin-left: 10px;
+}
+.check-box input[type="checkbox"] {
+  height: 28px;
+  width: 28px;
+  background-color: white;
+  border-radius: 30%;
+  vertical-align: middle;
+  border: 1px solid #ddd;
+  appearance: none;
+  -webkit-appearance: none;
+  outline: none;
+  cursor: pointer;
+}
+.form-input .check-box input[type="checkbox"]:checked {
+  background-color: #04353d;
+}
+.form-input .forgot-password {
+  /* border: 2px solid #fff700; */
+  margin-top: 25px;
+  margin-right: 3.8vw;
+  text-align: end;
+}
+.form-input .forgot-password span {
+  color: #fff;
+  font-size: 22px;
+  line-height: 23px;
+  letter-spacing: 0.0014em;
+}
+
+@media (min-width: 1280px) and (max-width: 1580px){
+  /* Table */
+  .box{
+    height: 790px;
+  }
+  .row-main{
+    height: 800px;
+  }
+  .row-main .col-1 {
+    /* border: 2px solid #178066; */
+    padding: 30px !important;
+    padding-top: 15vh !important;
+    padding-left: 130px !important;
+  }
+  .row-main .col-2 {
+    padding-top: 0px;
+    padding-bottom: 80px;
+    width: 900px;
+    height: inherit !important;
+  }
+}
